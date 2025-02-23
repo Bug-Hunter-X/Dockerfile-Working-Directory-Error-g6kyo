@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: not setting a working directory.  The initial `Dockerfile` will fail to run the application because the `app.py` file is not found in the expected location.  The `Dockerfile_solution` shows the correct way to set the working directory.
